@@ -1,0 +1,81 @@
+:root {
+    --primary-color: rgb(223, 144, 160);
+    --secondary-color: rgb(238, 111, 136);
+  }
+  
+  body {
+    color: var(--secondary-color);
+  }
+  
+  .card {
+    padding: 20px 0px;
+    border: 4px rgb(232, 61, 96) solid;
+    border-radius: 10px;
+  }
+  
+  /* Input Section */
+  
+  .card-title {
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 600;
+  }
+  
+  label {
+    font-weight: 500;
+  }
+  
+  select {
+    margin-bottom: 40px;
+  }
+  
+  #selectInputDegreeType {
+    border-radius: 0px 10px 3px 0px;
+  }
+  
+  
+  .convertBtn {
+    min-width: 10px;
+    background-color:rgb(214, 107, 129);
+  
+  
+  }
+  
+  .convertBtn:hover {
+    transition: 0.5s;
+    background-color: rgb(214, 107, 129);
+  }
+  
+  /* Result Section */
+  
+  #resultValueSection {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    max-width: 50px;
+    height: 100px;
+    word-wrap: normal;
+    text-align: center;
+    font-size-adjust: 0.90;
+  
+  }
+  
+  #convertedDegree {
+    font-size: 65px;
+    font-weight: 500;
+    max-width: 300px;
+  }
+  
+  #convertedUnit,
+  #degree {
+    padding-bottom: 70px;
+  }
+  
+  .resultSection {
+    background-color: var(--primary-color);
+    color: rgb(13, 1, 1);
+  }
+  
+  
+ 
